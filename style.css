@@ -2,3 +2,39 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  font-weight: bold;
+  padding: 12px 50px;
+}
+
+.logo {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #d4a002;
+  transition: 0.2s;
+}
