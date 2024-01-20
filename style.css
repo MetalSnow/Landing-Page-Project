@@ -54,6 +54,7 @@ a:hover {
   max-width: 600px;
   display: flex;
   flex-direction: column;
+  flex-shrink: 2;
 }
 .content > h1 {
   font-size: 48px;
@@ -87,7 +88,7 @@ a:hover {
   border-radius: 3px;
 }
 .fitness {
-  flex: 0 0 550px;
+  flex-shrink: 2;
   height: auto;
   border: 2px solid wheat;
   border-radius: 3px;
