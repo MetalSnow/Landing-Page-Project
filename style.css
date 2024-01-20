@@ -87,6 +87,7 @@ a:hover {
   border-radius: 3px;
 }
 .fitness {
+  flex: 1 0 350px;
   width: 500px;
   height: auto;
   border: 2px solid wheat;
