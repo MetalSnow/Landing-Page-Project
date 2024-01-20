@@ -206,3 +206,19 @@ a:hover {
 .join h3 {
   font-size: 20px;
 }
+
+/* Footer Section */
+footer {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-top: 10px;
+  gap: 8rem;
+}
+
+footer p a {
+  text-decoration: underline;
+}
