@@ -129,3 +129,30 @@ a:hover {
   border: 2px solid #3882f6;
   border-radius: 8px;
 }
+
+/* Section Three */
+.sec-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  height: 65vh;
+}
+
+.quote {
+  max-width: 50%;
+}
+
+.quote p {
+  font-size: 27px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 40px;
+}
+
+.quote h4 {
+  font-size: 20px;
+  width: 150px;
+  margin-left: auto;
+}
