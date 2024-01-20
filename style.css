@@ -156,3 +156,53 @@ a:hover {
   width: 150px;
   margin-left: auto;
 }
+
+/* Section Four */
+.sec-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.action {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  align-items: center;
+  background-color: #3882f6;
+  width: 80%;
+  border-radius: 8px;
+  padding: 14px 20px;
+  margin: 70px;
+}
+
+.action button {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 6px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action button:hover {
+  color: #3882f6;
+  background-color: white;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.join {
+  max-width: 60%;
+  background-color: #3882f6;
+  color: #e5e7eb;
+}
+
+.join p {
+  font-size: 18px;
+}
+
+.join h3 {
+  font-size: 20px;
+}
