@@ -111,6 +111,7 @@ a:hover {
   display: flex;
   gap: 3rem;
   text-align: center;
+  flex-wrap: wrap;
 }
 .info-one {
   display: flex;
