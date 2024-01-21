@@ -92,6 +92,12 @@ a:hover {
   box-shadow: 1px 1px 6px rgba(45, 146, 224, 0.3);
 }
 
+@media (max-width: 850px) {
+  .fitness {
+    height: 230px;
+  }
+}
+
 /* Section Two */
 .sec-two {
   display: flex;
